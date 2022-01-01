@@ -1,0 +1,567 @@
+body{
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #DEDEDE;
+}
+.xx{
+  font-family: "Zilla Slab";
+    color: #ffff;
+  }
+  .navLinkingChildrenOne:hover{
+    font-family: "Zilla Slab";
+    color: #ffff;
+    
+  }
+  .navLinkingChildrenOne::before {
+    transition: 300ms;
+    height: 3px;
+    border-radius:2rem;
+    content: "";
+    position: absolute;
+    background-color: #E9702D ;
+  }
+  
+  .navLinkingChildrenOne::before {
+    width: 0rem;
+    bottom: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .navLinkingChildrenOne:hover::before {
+    width: 3rem;
+    background-color: #E9702D;
+  }
+  /* Icon 3 */
+
+#nav-icon3 {
+  width: 30px;
+  height: 10px;
+  position: relative;
+  margin: 20px auto;
+ 
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+ #nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+  .dflex{
+      margin-left:0;
+      color: aliceblue;
+  }
+  .navbody{
+    width: 100% !important;
+    background-color: #2F2E2E !important;
+    overflow-x: hidden;
+   padding-left: 0.5rem;
+   padding-right:0.5rem;
+   
+  }
+  .firstbody{
+    background-color: #323232;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .biglogo{
+    margin-top: 3rem;
+  }
+  .phonemockup{
+    display:none;
+  }
+  .landingtext{
+    width: 100%;
+    color: aliceblue;
+    font-size:0.76rem;
+  }
+  .secondbody{
+    background-color: #DEDEDE;
+    height: auto;
+    padding-top:2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .featurestext{
+    color: #E9702D;
+    font-family: "Zilla Slab";
+    font-weight: bold;
+  }
+ .featurestextdescription{
+   width: 100%;
+   font-family: "Zilla Slab";
+   font-size:0.85rem;
+ }
+
+ .featurestextdescriptionx{
+  font-family: "Zilla Slab";
+  font-size:0.85rem;
+}
+.thirdbody{
+  background-color: #E9702D;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left:1rem;
+  padding-right:1rem;
+
+}
+.Totallogob{
+  margin-top:1rem;
+  display: block;
+}
+
+.firstbodyLeftbody{
+  /* width: 100%; */
+  padding-left:0rem;
+  color: #131212;
+}
+.designbg{
+  background-image: url(./images/designbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+  margin-top:-1rem;
+}
+.fourthbody{
+  background-color: #DEDEDE;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.featurestextx1{
+  color: #2F2E2E;
+  font-family: "Zilla Slab";
+  font-weight: bold;
+}
+.SalariesEarning{
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:1rem;
+  border-radius:0.2rem;
+  background-color: #555555;
+  width: 100%;
+  height:auto;
+  margin-bottom:1.4rem;
+}
+.designbgx{
+  background-image: url(./images/designbgx.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+  margin-top:-1rem;
+}
+.firstbodyRightx{
+  display: none;
+}
+
+
+
+
+
+
+
+  @media (min-width:576px)  {
+    .navbody{
+      width: 100% !important;
+      background-color: #2F2E2E !important;
+      overflow-x: hidden;
+     padding-left: 1rem;
+     padding-right:1rem;
+     
+    }
+    .firstbody{
+      background-color: #323232;
+      height: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .phonemockup{
+      display:none;
+    }
+    .biglogo{
+      margin-top: 3rem;
+    }
+    .landingtext{
+      width: 100%;
+      color: aliceblue;
+    }
+    .secondbody{
+      background-color: #DEDEDE;
+      height: auto;
+      padding-top:2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 2rem;
+    }
+    .featurestext{
+      color: #E9702D;
+      font-family: "Zilla Slab";
+      font-weight: bold;
+    }
+   .featurestextdescription{
+     width: 100%;
+     font-family: "Zilla Slab";
+   }
+  
+   .featurestextdescriptionx{
+    font-family: "Zilla Slab";
+  }
+  .thirdbody{
+    background-color: #E9702D;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:1rem;
+    padding-right:1rem;
+  
+  }
+  .Totallogob{
+    margin-top:1rem;
+    display: block;
+  }
+  .firstbodyLeftbody{
+    width: 100%;
+    padding-left:0rem;
+    color: #131212;  
+  }
+  .fourthbody{
+    background-color: #DEDEDE;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  
+  }
+
+
+
+
+
+
+  @media (min-width:768px)  {
+    .navbody{
+      width: 100% !important;
+      background-color: #2F2E2E !important;
+      overflow-x: hidden;
+     padding-left: 1rem;
+     padding-right:1rem;
+     
+    }
+    .firstbody{
+      background-color: #323232;
+      height: auto;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    .phonemockup{
+      display:block;
+    }
+    .biglogo{
+      margin-top: 6rem;
+    }
+    .landingtext{
+      width: 80%;
+      color: aliceblue;
+    }
+    .secondbody{
+      background-color: #DEDEDE;
+      height: auto;
+      padding-top:4rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-bottom: 4rem;
+    }
+    .featurestext{
+      color: #E9702D;
+      font-family: "Zilla Slab";
+      font-weight: bold;
+    }
+   .featurestextdescription{
+     width: 80%;
+     font-family: "Zilla Slab";
+   }
+  
+   .featurestextdescriptionx{
+    font-family: "Zilla Slab";
+  }
+  .thirdbody{
+    background-color: #E9702D;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:5rem;
+    padding-right:5rem;
+  
+  }
+  .Totallogob{
+    margin-top:9rem;
+    display: block;
+  }
+  
+  .firstbodyLeftbody{
+    width: 90%;
+    padding-left: 2rem;
+    color: #131212; 
+  }
+  .fourthbody{
+    background-color: #DEDEDE;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:5rem;
+    padding-right:5rem;
+  }
+  
+  }
+
+
+
+
+
+
+  @media (min-width:992px)  {
+    .navbody{
+    width: 100% !important;
+    background-color: #2F2E2E !important;
+    overflow-x: hidden;
+     padding-left: 4rem;
+     padding-right:4rem;
+     
+    }
+    .firstbody{
+      background-color: #323232;
+      height: auto;
+      padding-left: 9rem;
+      padding-right: 9rem;
+    }
+    .phonemockup{
+      display:block;
+    }
+    .biglogo{
+      margin-top: 7rem;
+    }
+    .landingtext{
+      width: 80%;
+      color: aliceblue;
+    }
+    .secondbody{
+      background-color: #DEDEDE;
+      height: auto;
+      padding-top:4rem;
+      padding-left: 9rem;
+      padding-right: 9rem;
+      padding-bottom: 4rem;
+    }
+    .featurestext{
+      color: #E9702D;
+      font-family: "Zilla Slab";
+      font-weight: bold;
+    }
+   .featurestextdescription{
+     width: 61%;
+     font-family: "Zilla Slab";
+   }
+  
+   .featurestextdescriptionx{
+    font-family: "Zilla Slab";
+  }
+  .thirdbody{
+    background-color: #E9702D;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:9rem;
+    padding-right:9rem;
+  
+  }
+  .Totallogob{
+    margin-top:9rem;
+    display: block;
+  }
+  
+  .firstbodyLeftbody{
+    width: 90%;
+    padding-left: 2rem;
+    color: #131212; 
+  }
+  .fourthbody{
+    background-color: #DEDEDE;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:9rem;
+    padding-right:9rem;
+  }
+
+  }
+
+
+
+
+
+
+  @media (min-width:1200px)  {
+    .navbody{
+      width: 100% !important;
+      background-color: #2F2E2E !important;
+      overflow-x: hidden;
+     padding-left: 8rem;
+     padding-right:8rem;
+     
+    }
+    .firstbody{
+      background-color: #323232;
+      height: auto;
+      padding-left: 9rem;
+      padding-right: 9rem;
+    }
+    .phonemockup{
+      display:block;
+    }
+    .biglogo{
+      margin-top: 13rem;
+    }
+    .landingtext{
+      width: 80%;
+      color: aliceblue;
+    }
+    .secondbody{
+      background-color: #DEDEDE;
+      height: auto;
+      padding-top:7rem;
+      padding-left: 9rem;
+      padding-right: 9rem;
+      padding-bottom: 7rem;
+    }
+    .featurestext{
+      color: #E9702D;
+      font-family: "Zilla Slab";
+      font-weight: bold;
+    }
+   .featurestextdescription{
+     width: 51%;
+     font-family: "Zilla Slab";
+   }
+  
+   .featurestextdescriptionx{
+    font-family: "Zilla Slab";
+  }
+  .thirdbody{
+    background-color: #E9702D;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:9rem;
+    padding-right:9rem;
+  
+  }
+  .Totallogob{
+    margin-top:9rem;
+    display: block;
+  }
+  .firstbodyLeftbody{
+    width: 90%;
+    padding-left: 2rem;
+    color: #131212;
+  }
+  .fourthbody{
+    background-color: #DEDEDE;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:9rem;
+    padding-right:9rem;
+  }
+  }
